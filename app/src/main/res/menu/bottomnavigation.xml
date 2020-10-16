@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--首页、全部服务、新闻、活动、个人中心-->
+    <item
+        android:id="@+id/action_main"
+        android:icon="@mipmap/home"
+        android:title="首页"/>
+    <item
+        android:id="@+id/action_2"
+        android:enabled="true"
+        android:icon="@mipmap/creative"
+        android:title="全部服务"/>
+    <item
+        android:id="@+id/action_3"
+        android:enabled="true"
+        android:icon="@mipmap/home"
+        android:title="新闻"/>
+    <item
+        android:id="@+id/action_4"
+        android:enabled="true"
+        android:icon="@mipmap/creative"
+        android:title="活动"/>
+    <item
+        android:id="@+id/action_5"
+        android:enabled="true"
+        android:icon="@mipmap/creative"
+        android:title="个人中心"/>
+</menu>
